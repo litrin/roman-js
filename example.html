@@ -1,0 +1,16 @@
+<html>
+<head>
+
+</head>
+<body>
+<script src="./roman.js" ></script>
+Number: <input type="text" id="num" value="1">
+<br />
+Roman: <input type="text" id="roman">
+<br />
+<br />
+<br />
+<button onclick="document.getElementById('roman').value=RomanSymbol.toRoman(document.getElementById('num').value)">To Roman</button>
+<button onclick="document.getElementById('num').value=RomanSymbol.toNumber(document.getElementById('roman').value)">To Number</button>
+</body>
+</html>
